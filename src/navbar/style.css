@@ -1,0 +1,19 @@
+.navbar{
+  
+display:flex;
+   background:purple;
+}
+a{
+ justify-content:space-around;
+        margin:5px;
+  
+  padding:10px;
+  
+  color:white;
+   text-decoration:none;
+  
+}
+a:hover{
+  background:black;
+  color:white;
+}
