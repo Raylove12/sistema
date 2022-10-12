@@ -4,6 +4,8 @@ import style from './style.css';
 export const Cadastro=()=>{
   return(
     <div className="cadastro">
+      <p>Faça o cadastro colaborare comm a comunidade</p>
+
       <form>
       <label>Informe seu nome completo</label>
       <input required placeholder='digite seu nome' type="text"/>

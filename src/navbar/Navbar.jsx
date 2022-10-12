@@ -9,7 +9,7 @@ export const Navbar =()=>{
         
        <p>Home</p>
       </Link>
-     <Link to="/cadastro">
+     <Link to="register">
        <p>Cadastro</p>
       </Link>
       
@@ -17,10 +17,17 @@ export const Navbar =()=>{
        <p>Login</p>
       </Link>
       
-      {/* <Link to="localizacao">
+      <Link to="localization">
        <p>Localização</p>
       </Link>
-        */}
+
+      <Link to="chat">
+       <p>Chat</p>
+      </Link>
+
+      <Link to="agenda">
+       <p>Agenda</p>
+      </Link>
     </div>
   )
 }

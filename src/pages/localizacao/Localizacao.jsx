@@ -1,12 +1,13 @@
 import React from 'react';
-//import {loc} from './loc.png';
+import Photo from './loc.png';
 
 export const Localizacao=()=>{
   
   return(
     <>
-     <h2>teste</h2>
-
+ <p>Localização em tempo real</p>
+ <img src={Photo}/>
+ <span>Imagem ilustrativa</span>
     </>
   )
 }
